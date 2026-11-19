@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en" class="no-js" data-root="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Master’s thesis: What’s in That Frame · Md Imdadul Hoque</title>
+  <meta name="description" content="Case study of Md Imdadul Hoque’s master’s thesis: an AI system that answers questions about videos and shows the moment in the video behind every answer.">
+  <meta name="author" content="Md Imdadul Hoque">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#FFFFFF">
+  <link rel="canonical" href="https://md-imdadul-hoque.github.io/thesis.html">
+  <link rel="alternate" hreflang="en" href="https://md-imdadul-hoque.github.io/thesis.html">
+  <link rel="alternate" hreflang="de" href="https://md-imdadul-hoque.github.io/de/thesis.html">
+  <link rel="alternate" hreflang="x-default" href="https://md-imdadul-hoque.github.io/thesis.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Md Imdadul Hoque">
+  <meta property="og:title" content="Master’s thesis: What’s in That Frame · Md Imdadul Hoque">
+  <meta property="og:description" content="Case study of Md Imdadul Hoque’s master’s thesis: an AI system that answers questions about videos and shows the moment in the video behind every answer.">
+  <meta property="og:url" content="https://md-imdadul-hoque.github.io/thesis.html">
+  <meta property="og:image" content="https://md-imdadul-hoque.github.io/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Md Imdadul Hoque, AI engineer, applied researcher and IT administrator in Bremen">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/sans-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/serif-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css?v=20261119s">
+  <script>document.documentElement.className = 'js';</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <svg xmlns="http://www.w3.org/2000/svg" class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3.5v11M7.5 10 12 14.5 16.5 10M4 15.5V19a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 20 19v-3.5"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m21 7.5-9 6-9-6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M19.5 10c0 5.5-7.5 11.5-7.5 11.5S4.5 15.5 4.5 10a7.5 7.5 0 0 1 15 0Z"/><circle cx="12" cy="10" r="2.7"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.8 2.8L16.5 9.5"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></symbol>
+    <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2"/><rect x="9.5" y="9.5" width="5" height="5"/><path d="M9.5 2v3M14.5 2v3M9.5 19v3M14.5 19v3M19 9.5h3M19 14.5h3M2 9.5h3M2 14.5h3"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M2.5 4h6A3.5 3.5 0 0 1 12 7.5v13a3 3 0 0 0-3-3H2.5zM21.5 4h-6A3.5 3.5 0 0 0 12 7.5v13a3 3 0 0 1 3-3h6.5z"/></symbol>
+    <symbol id="i-server" viewBox="0 0 24 24"><rect x="2.5" y="3" width="19" height="7.5" rx="2"/><rect x="2.5" y="13.5" width="19" height="7.5" rx="2"/><path d="M6.5 6.75h.01M6.5 17.25h.01"/></symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6.5L4.8 18.2A1.8 1.8 0 0 0 6.3 21h11.4a1.8 1.8 0 0 0 1.5-2.8L14 9.5V3M7.2 15h9.6"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M10 8.6v6.8l5.4-3.4z"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4.5a2 2 0 0 1-2-2V4.5a2 2 0 0 1 2-2H13a2 2 0 0 1 2 2V5"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="16" rx="2"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M2 9 12 4l10 5-10 5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.8"/><path d="M4.5 20.5a7.5 7.5 0 0 1 15 0"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M21 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 1.1 4.2 2 2 0 0 1 3.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L7.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6.5h-6V21H4a1 1 0 0 1-1-1z"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M15 3.5h5.5V9M9 20.5H3.5V15M20.5 3.5 14 10M3.5 20.5 10 14"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2.5H6.5a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V8z"/><path d="M14 2.5V8h5.5M8.5 13h7M8.5 17h7"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></symbol>
+    <symbol id="i-scholar" viewBox="0 0 24 24"><path fill="currentColor" d="M5.24 13.77 0 9.5 12 0l12 9.5-5.24 4.27A7.5 7.5 0 0 0 12 9.5a7.5 7.5 0 0 0-6.76 4.27zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="header-in">
+      <a class="logo" href="index.html" aria-label="Md Imdadul Hoque, AI Engineer, Applied Researcher: home">
+        <span class="logo-mark" aria-hidden="true">IH<span>.</span></span>
+        <span class="logo-text logo-titles"><span>AI Engineer</span><span>Applied Researcher</span></span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="experience.html">Experience</a>
+        <a href="thesis.html" aria-current="page">Master Thesis</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="publications.html">Publications</a>
+        <a href="certificates.html">Certificates</a>
+        <a class="btn btn-ghost btn-sm" href="contact.html">Contact</a>
+      </nav>
+      <ul class="header-social" aria-label="Profiles">
+        <li><a href="https://www.linkedin.com/in/md-imdadul-hoque-77801925b/" target="_blank" rel="noopener me" aria-label="LinkedIn"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+        <li><a href="https://scholar.google.com/citations?user=mVSKFNYAAAAJ" target="_blank" rel="noopener me" aria-label="Google Scholar"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-scholar"/></svg></a></li>
+        <li><a href="https://github.com/Md-Imdadul-Hoque" target="_blank" rel="noopener me" aria-label="GitHub"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-github"/></svg></a></li>
+      </ul>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <a href="thesis.html" hreflang="en" lang="en" aria-current="true">EN</a>
+        <a href="de/thesis.html" hreflang="de" lang="de">DE</a>
+      </div>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">
+        <svg class="icon icon-open" aria-hidden="true"><use href="#i-menu"/></svg><svg class="icon icon-close" aria-hidden="true"><use href="#i-close"/></svg><span class="menu-label">Menu</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap page-hero-grid">
+        <div>
+          <h1>What’s in That Frame</h1>
+          <p class="lead">An AI system that answers questions about videos and shows the exact moment in the video that proves each answer. When a video does not contain the answer, it says so.</p>
+          <div class="meta-line">
+            <span><svg class="icon" aria-hidden="true"><use href="#i-cap"/></svg>Master’s thesis, University of Bremen</span>
+            <span><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Submission December 2026</span>
+            <span><svg class="icon" aria-hidden="true"><use href="#i-user"/></svg><span>Supervised by <a href="https://www.linkedin.com/in/nina-wenig-6807b011a/" target="_blank" rel="noopener" aria-label="Dr.-Ing. Nina Wenig on LinkedIn">Dr.-Ing. Nina Wenig</a> and <a href="https://www.linkedin.com/in/martin-mundt/" target="_blank" rel="noopener" aria-label="Prof. Dr. Martin Mundt on LinkedIn">Prof. Dr. Martin Mundt</a></span></span>
+          </div>
+          <div class="actions">
+            <a class="btn btn-gold" href="https://github.com/Md-Imdadul-Hoque/Multimodal_Video_RAG-Thesis-" target="_blank" rel="noopener"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-github"/></svg>View the code</a>
+          </div>
+        </div>
+        <figure class="page-hero-media is-art">
+          <img src="assets/img/thesis/banner-sports-en-900.webp" srcset="assets/img/thesis/banner-sports-en-900.webp 900w, assets/img/thesis/banner-sports-en-1500.webp 1500w" sizes="(min-width: 960px) 560px, 92vw" width="1500" height="1200" alt="Illustration of the thesis system with a football video: the question ‘What was the final score?’, the answer ‘The white team won 2–1’, and the frame behind it at 4:35 with a button that plays this moment" fetchpriority="high" decoding="async">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="wrap">
+        <div class="section-head section-head--wide">
+          <h2>Three research questions</h2>
+          <p>Does it work for every kind of video, what makes its proof reliable, and can people really use it?</p>
+        </div>
+        <div class="rq-grid">
+          <article class="rq hue-blue">
+            <span class="pill">RQ1</span>
+            <h3>Does the system work for different kinds of video, from lectures full of text to sports and talks?</h3>
+            <p><b>Answer.</b> Yes. In all seven kinds of video, people rated the answers between 4.0 and 4.7 out of 5 for correctness.</p>
+          </article>
+          <article class="rq hue-violet">
+            <span class="pill">RQ2</span>
+            <h3>How can the system show reliable proof, without showing the same picture twice?</h3>
+            <p><b>Answer.</b> The thesis gives twelve recommendations. Three matter most: merge repeated pictures without losing what was said, never show two look-alike pictures, and say “no” when the video has no answer.</p>
+          </article>
+          <article class="rq hue-teal">
+            <span class="pill">RQ3</span>
+            <h3>Can people use it to find and check information in a video, and do they trust the answers?</h3>
+            <p><b>Answer.</b> Yes. For 75% of the answers, the pictures shown were fully correct, people played the moment for 70% of them, and they found the system easy to use.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head section-head--wide">
+          <h2>How it works</h2>
+          <p>First, the system goes through each video once: it saves the important pictures, reads the text on them and writes down what is said. When you ask a question, it finds the best matching moments, lets two AI judges check them, and answers with the pictures that prove it, or tells you that the video does not cover your question.</p>
+        </div>
+        <figure class="figure">
+          <a href="assets/img/thesis/fig-overview.webp" data-lightbox data-caption="The system at a glance, with frames of the corpus.">
+            <img src="assets/img/thesis/fig-overview.webp" width="1600" height="842" alt="Overview of the system: each video is processed once into key frames, on-screen text and speech, stored as moments in an index; every question runs through a search and two judges and ends in an answer with evidence, or in no frames" loading="lazy" decoding="async">
+          </a>
+          <figcaption>The whole system in one picture. Click to enlarge.</figcaption>
+        </figure>
+        <div class="phases">
+          <div class="phase-list">
+            <div class="phase hue-blue">
+              <h3>Preparing a video<span>once for each video</span></h3>
+              <ol class="flow">
+                <li><b>Save the key pictures</b><span>A new picture is saved whenever the image on screen changes.</span></li>
+                <li><b>Write down the speech</b><span>Everything that is said is turned into text, with its time.</span></li>
+                <li><b>Merge repeats</b><span>A picture that comes back is stored only once, but it remembers every time it was on screen.</span></li>
+                <li><b>Read the text on screen</b><span>The text on every saved picture is read.</span></li>
+                <li><b>Build moments</b><span>Each picture is joined with its text and what was said around it, so all three can be searched together. <a href="assets/img/thesis/fig-moment.webp" data-lightbox data-caption="One moment of an example video: the key frame, the text on it, and the speech heard while it was on screen.">See a moment</a></span></li>
+              </ol>
+            </div>
+            <div class="phase hue-teal">
+              <h3>Answering a question<span>every time someone asks</span></h3>
+              <ol class="flow">
+                <li><b>Search</b><span>The system finds the moments that fit the question best.</span></li>
+                <li><b>Two AI judges</b><span>One reads the text, one looks at the picture, and each gives every moment a score from 0 to 10.</span></li>
+                <li><b>Say “no” when needed</b><span>If no moment scores above 4, the system shows no pictures and says the video does not cover the question.</span></li>
+                <li><b>Pick different pictures</b><span>Up to three pictures that do not look alike and lie at least 10 seconds apart.</span></li>
+                <li><b>Answer</b><span>An AI model writes the answer, and each picture plays the video from its moment.</span></li>
+              </ol>
+            </div>
+          </div>
+          <figure class="fig-card">
+            <a href="assets/img/thesis/architecture.webp" data-lightbox="doc" data-caption="Architecture of the system: the processing phase runs once for each video, the question phase for every question. The shaded components are the ones that RQ2 examines.">
+              <img src="assets/img/thesis/architecture.webp" width="1600" height="1517" alt="Architecture diagram with two columns: the processing phase from the video to the index, and the question phase from the question to the answer or a refusal" loading="lazy" decoding="async">
+            </a>
+            <figcaption>The same steps as a technical diagram. Click to enlarge.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section section-soft">
+      <div class="wrap split split--figure">
+        <div class="split-text">
+          <h2>Seven kinds of video</h2>
+          <p>I&nbsp;tested the system on 105 YouTube videos, 15 of each kind. They keep their information in different places: lectures show a lot of text, sports change the picture very often, and in talks the answer is mostly in what people say.</p>
+          <ul class="tags tags-lg"><li>Lessons and lectures</li><li>Documentary and News</li><li>Product review</li><li>Vlog and influencer</li><li>How-to guides</li><li>Sports</li><li>Talks and interviews</li></ul>
+        </div>
+        <figure class="fig-card">
+          <a href="assets/img/thesis/chart-corpus.webp" data-lightbox data-caption="The seven categories by on-screen text, speech and frames. The grey bars give the value over all 105 videos.">
+            <img src="assets/img/thesis/chart-corpus.webp" width="1600" height="1122" alt="Bar charts per category: frames with text, characters per frame, speech as share of the running time, and frames per minute" loading="lazy" decoding="async">
+          </a>
+          <figcaption>How much text, speech and picture change each kind of video has.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head section-head--wide">
+          <h2>What the evaluation showed</h2>
+          <p>Two tests: 525 questions whose answers were known, and a study in which 15 people asked their own questions about the videos.</p>
+        </div>
+        <ul class="stat-row">
+          <li class="hue-blue"><b>4.44 / 5</b><span>how correct people found the answers</span></li>
+          <li class="hue-violet"><b>75%</b><span>of the answers came with fully correct pictures</span></li>
+          <li class="hue-teal"><b>84 of 105</b><span>questions without an answer in the video were correctly declined</span></li>
+          <li class="hue-gold"><b>24 / 100</b><span>effort needed to use it, which is low</span></li>
+        </ul>
+        <div class="results">
+          <figure class="result hue-blue">
+            <a href="assets/img/thesis/chart-ratings.webp" data-lightbox data-caption="Correctness, trust and helpfulness of the answers, as rated by the participants, for each video category."><img src="assets/img/thesis/chart-ratings.webp" width="1600" height="1180" alt="Bar charts of the participants’ ratings of correctness, trust and helpfulness in seven video categories" loading="lazy" decoding="async"></a>
+            <figcaption><span class="pill">RQ1</span><b>Works for every kind of video</b>Answers were rated between 4.0 and 4.7 out of 5 for correctness in all seven kinds of video.</figcaption>
+          </figure>
+          <figure class="result hue-violet">
+            <a href="assets/img/thesis/chart-evidence.webp" data-lightbox data-caption="The evidence per category: how the participants judged the frames of an answer, and the share of answers with frames for which a moment was played."><img src="assets/img/thesis/chart-evidence.webp" width="1600" height="611" alt="Bar charts per category: frames correctly retrieved, and the share of answers for which a moment was played" loading="lazy" decoding="async"></a>
+            <figcaption><span class="pill">RQ1</span><b>Proof people can check</b>For 75% of the answers the pictures were fully correct, and people played the moment for 70%.</figcaption>
+          </figure>
+          <figure class="result hue-teal">
+            <a href="assets/img/thesis/chart-category.webp" data-lightbox="doc" data-caption="The category questionnaire: four statements over all 50 questionnaires, and the mean per category."><img src="assets/img/thesis/chart-category.webp" width="1600" height="1299" alt="Stacked bars of agreement with four statements, and the mean per category" loading="lazy" decoding="async"></a>
+            <figcaption><span class="pill">RQ1</span><b>People want to use it</b>Asked whether they would use it to find a specific part of a video, people answered 4.6 out of 5.</figcaption>
+          </figure>
+          <figure class="result hue-gold">
+            <a href="assets/img/thesis/chart-refusals.webp" data-lightbox data-caption="Refusals: the system declined 84 of 105 unanswerable questions, and only 12 of 420 answerable ones."><img src="assets/img/thesis/chart-refusals.webp" width="1600" height="654" alt="Bar charts of refused questions: 84 of 105 unanswerable and 12 of 420 answerable questions" loading="lazy" decoding="async"></a>
+            <figcaption><span class="pill">RQ2</span><b>Knows when to say no</b>It declined 84 of 105 questions the videos cannot answer, and only 12 of 420 that they can.</figcaption>
+          </figure>
+          <figure class="result hue-blue">
+            <a href="assets/img/thesis/chart-workload.webp" data-lightbox data-caption="Workload on the NASA-TLX scale: a mean of 24.3 out of 100."><img src="assets/img/thesis/chart-workload.webp" width="1600" height="530" alt="Bar chart of the NASA-TLX workload scores, with a mean of 24.3 out of 100" loading="lazy" decoding="async"></a>
+            <figcaption><span class="pill">RQ3</span><b>Easy to use</b>An effort score of 24 out of 100 on the NASA-TLX scale, which is low.</figcaption>
+          </figure>
+          <figure class="result hue-violet">
+            <a href="assets/img/thesis/chart-ueq.webp" data-lightbox="doc" data-caption="UEQ-S and trust in the content: mean and standard deviation of each scale and of its word pairs, on a scale from −3 to +3."><img src="assets/img/thesis/chart-ueq.webp" width="1600" height="1117" alt="Bar chart of the UEQ-S scales and of trust in the content, with means between +0.87 and +2.40" loading="lazy" decoding="async"></a>
+            <figcaption><span class="pill">RQ3</span><b>Practical and trustworthy</b>People rated the system as clearly practical (+1.9) and its answers as trustworthy (+1.9), on a scale from −3 to +3.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="wrap">
+        <div class="section-head section-head--wide">
+          <h2>The interface</h2>
+          <p>People picked a video, asked questions while watching it, and got each answer with its pictures, or a note when the video had no answer.</p>
+        </div>
+        <div class="grid-2 shots">
+          <figure>
+            <a href="assets/img/thesis/interface-library-1600.webp" data-lightbox data-caption="The video library of the study version: 105 videos in seven categories.">
+              <img src="assets/img/thesis/interface-library-900.webp" width="900" height="461" alt="The video library with category filters and video cards" loading="lazy" decoding="async">
+            </a>
+            <figcaption>The video library: 105 videos in seven categories.</figcaption>
+          </figure>
+          <figure>
+            <a href="assets/img/thesis/interface-answer-1600.webp" data-lightbox data-caption="An answer with its evidence. Each frame shows when its content appeared and plays that moment.">
+              <img src="assets/img/thesis/interface-answer-900.webp" width="900" height="819" alt="An answer about the CIA triad with two supporting slide frames and play buttons" loading="lazy" decoding="async">
+            </a>
+            <figcaption>An answer with its proof. Each picture plays the video from its moment.</figcaption>
+          </figure>
+        </div>
+        <figure class="shot-wide">
+          <a href="assets/img/thesis/interface-refusal-1600.webp" data-lightbox data-caption="A refusal: the video does not give the calories, so a notice takes the place of the frames.">
+            <img src="assets/img/thesis/interface-refusal-1600.webp" srcset="assets/img/thesis/interface-refusal-900.webp 900w, assets/img/thesis/interface-refusal-1600.webp 1600w" sizes="(min-width: 1240px) 1160px, 92vw" width="1600" height="480" alt="The study system answers that the video does not mention a calorie count, and shows the notice ‘No matching moment in this video’ instead of frames" loading="lazy" decoding="async">
+          </a>
+          <figcaption>When the video has no answer: no pictures, just a clear note.</figcaption>
+        </figure>
+        <p class="note">Video frames, thumbnails and slides inside the figures and screenshots belong to their creators.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head section-head--wide">
+          <h2>What I&nbsp;learned</h2>
+        </div>
+        <ul class="lessons lessons--row">
+          <li class="hue-gold"><strong>People trust answers that sound convincing</strong>Participants rated even wrong “not in this video” replies as correct. So such replies have to be checked against the video, not only rated.</li>
+          <li class="hue-teal"><strong>“The same picture” can mean “a few seconds apart”</strong>People called two pictures duplicates when they were only seconds apart, even if they looked different.</li>
+          <li class="hue-violet"><strong>Be clear about the limits</strong>The picture search was switched off in the study, so the results show what text and speech alone can do.</li>
+        </ul>
+        <h3 class="built-with">Built with</h3>
+        <ul class="tags"><li>Python</li><li>OpenCV</li><li>EasyOCR</li><li>Whisper</li><li>LlamaIndex</li><li>ChromaDB</li><li>gemini-embedding-2</li><li>GPT-5.4</li><li>Streamlit</li><li>SQLite</li></ul>
+      </div>
+    </section>
+    <section class="cta" aria-label="Work with me">
+      <div class="wrap">
+        <div class="cta-box">
+          <div>
+            <h2>Open to new opportunities</h2>
+            <p>Completing my M.Sc. in December 2026 and available at short notice across Germany.<br>Seeking roles in AI engineering, applied research and IT administration.</p>
+          </div>
+          <div class="actions">
+            <a class="btn btn-gold" href="contact.html">Get in touch</a>
+            <a class="btn btn-ghost" href="assets/cv/CV_Md_Imdadul_Hoque.pdf" target="_blank" rel="noopener" data-cv><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-cv-label>Download CV</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-about">
+        <a class="logo" href="index.html" aria-label="Md Imdadul Hoque, home">
+          <span class="logo-mark" aria-hidden="true">IH<span>.</span></span>
+          <span class="logo-text"><span class="logo-name" translate="no">Md Imdadul Hoque</span><span class="logo-role">AI Engineer · Applied Researcher</span></span>
+        </a>
+        <p>AI engineer, applied researcher and IT administrator based in Bremen.<br>M.Sc. Digital Media <span class="nowrap">(Media Informatics)</span>, University of Bremen, expected December 2026.</p>
+      </div>
+      <div>
+        <h2 class="footer-title">Pages</h2>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="thesis.html">Master Thesis</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-title">More</h2>
+        <ul>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="certificates.html">Certificates</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-title">Connect</h2>
+        <ul class="footer-links">
+          <li><a href="contact.html" data-mail><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>E-mail</a></li>
+          <li><a href="https://www.linkedin.com/in/md-imdadul-hoque-77801925b/" target="_blank" rel="noopener me"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-linkedin"/></svg>LinkedIn</a></li>
+          <li><a href="https://github.com/Md-Imdadul-Hoque" target="_blank" rel="noopener me"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-github"/></svg>GitHub</a></li>
+          <li><a href="https://scholar.google.com/citations?user=mVSKFNYAAAAJ" target="_blank" rel="noopener me"><svg class="icon icon-fill" aria-hidden="true"><use href="#i-scholar"/></svg>Google Scholar</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <p>© 2026 Md Imdadul Hoque · Bremen, Germany</p>
+      <nav aria-label="Legal">
+        <a href="legal.html">Legal notice &amp; privacy</a>
+        <a href="credits.html">Image credits</a>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Image viewer">
+    <button class="lightbox-close" type="button" aria-label="Close"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+    <figure><div class="lightbox-pages"></div><figcaption></figcaption></figure>
+  </dialog>
+
+  <script src="assets/js/main.js?v=20261119s" defer></script>
+</body>
+</html>

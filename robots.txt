@@ -1,0 +1,5 @@
+# Everything may be indexed. The legal page carries its own noindex tag.
+User-agent: *
+Allow: /
+
+Sitemap: https://md-imdadul-hoque.github.io/sitemap.xml
