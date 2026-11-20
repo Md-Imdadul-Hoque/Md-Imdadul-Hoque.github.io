@@ -2,6 +2,7 @@
 # To publish one of them, delete its line here, then run: git add . ; git commit -m "Add notes" ; git push
 README.md
 DESIGN.md
+for any change, code.png
 
 # Files that Windows and macOS create in folders
 Thumbs.db
