@@ -7,7 +7,7 @@
   var html = doc.documentElement;
   function all(sel) { return Array.prototype.slice.call(doc.querySelectorAll(sel)); }
 
-  /* 1 · Language. German pages live in /de/ and have lang="de" */
+  /* 1 · Language. German pages live at the root, English ones in /en/; the lang attribute decides */
   var lang = (html.getAttribute('lang') || 'en').slice(0, 2) === 'de' ? 'de' : 'en';
   var TEXT = {
     en: { subject: 'CV request', copied: 'Copied' },
